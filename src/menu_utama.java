@@ -160,6 +160,7 @@ public class menu_utama extends javax.swing.JFrame {
     }// </editor-fold>//GEN-END:initComponents
 
     private void keluarActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_keluarActionPerformed
+        dispose();
         // TODO add your handling code here:
     }//GEN-LAST:event_keluarActionPerformed
 

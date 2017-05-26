@@ -334,6 +334,7 @@ public class sewa extends javax.swing.JFrame {
     }//GEN-LAST:event_simpanActionPerformed
 
     private void keluarActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_keluarActionPerformed
+        dispose();
         // TODO add your handling code here:
     }//GEN-LAST:event_keluarActionPerformed
 

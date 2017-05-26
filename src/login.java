@@ -95,6 +95,11 @@ public class login extends javax.swing.JFrame {
                 == JOptionPane.YES_OPTION){
             System.exit(0);
         }
+        else{
+            new menu_utama().show();
+            dispose();
+        }
+        
         // TODO add your handling code here:
     }//GEN-LAST:event_keluarActionPerformed
 

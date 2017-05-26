@@ -88,7 +88,7 @@ public class pembayaran extends javax.swing.JFrame {
 
         jRadioButton2.setText("Kelas I");
         getContentPane().add(jRadioButton2);
-        jRadioButton2.setBounds(150, 230, 57, 23);
+        jRadioButton2.setBounds(150, 230, 80, 30);
 
         jRadioButton3.setText("Kelas II");
         getContentPane().add(jRadioButton3);
@@ -185,6 +185,7 @@ String x=JOptionPane.showInputDialog(null, "Masukan Kode Barang");
     }//GEN-LAST:event_kembaliActionPerformed
 
     private void keluarActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_keluarActionPerformed
+        dispose();
         // TODO add your handling code here:
     }//GEN-LAST:event_keluarActionPerformed
 
